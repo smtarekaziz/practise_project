@@ -1,0 +1,151 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+
+}
+
+.container{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.logo{
+	margin-top: 3px;
+	float: left;
+	width: 18%;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	float: right;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{	
+    padding: 10px 14px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #535D69;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+.menu ul li a:hover{
+	color: #BD233F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/person.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.b_content{
+	margin: 100px 0;
+	width: 50%;
+}
+.b_content h1{
+	margin: 0 0 40px;
+	font-family: sans-serif;
+	font-size: 61px;
+	font-weight: 700;
+	color: white;
+	text-transform: capitalize;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px;
+}
+.b_content button{
+	width: 250;
+	height: 50px;
+	background-color: #BD233F;
+	border: none;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+.b_content button:hover{
+	background-color: white;
+    color: #BD233F;
+}
+/*banner end*/
+/*works starts*/
+.works{
+	padding: 90px 0;
+}
+.c_title{
+	margin: 0 auto 50px;
+	width: 70%;
+	text-align: center;
+}
+.c_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #161616;
+}
+.c_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #535D69;
+	line-height: 25px;
+}
+.w_content{
+	overflow: hidden;
+}
+.single{
+	float: left;
+	padding: 20px 4.15%;
+	width:25%;
+	text-align:center;
+}
+.s_img{
+	margin: 0 auto; 
+	width: 50%;
+
+}
+.s_img img{
+	width: 100%;
+
+}
+.single h3{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color:#535D69;
+	line-height: 25px;
+
+}
+/*works end*/
